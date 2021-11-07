@@ -19,9 +19,9 @@ function Stack() {
       </Title>
       <ContentList>
         <StackCategory>
-          <img src={CircleIcon} alt="" />
+          {/* <img src={CircleIcon} alt="" /> */}
           <p>Front-End</p>
-          <img src={CircleIcon} alt="" />
+          {/* <img src={CircleIcon} alt="" /> */}
         </StackCategory>
         <IconList>
           <img src={JsIcon} alt="" />
@@ -36,9 +36,9 @@ function Stack() {
           </Desc> */}
         </IconList>
         <StackCategory>
-          <img src={CircleIcon2} alt="" />
+          {/* <img src={CircleIcon2} alt="" /> */}
           <p>Algorithm</p>
-          <img src={CircleIcon2} alt="" />
+          {/* <img src={CircleIcon2} alt="" /> */}
         </StackCategory>
         <IconList>
           <img src={PythonIcon} alt="" />
@@ -48,9 +48,9 @@ function Stack() {
           </Desc> */}
         </IconList>
         <StackCategory>
-          <img src={CircleIcon} alt="" />
+          {/* <img src={CircleIcon} alt="" /> */}
           <p>Version Control</p>
-          <img src={CircleIcon} alt="" />
+          {/* <img src={CircleIcon} alt="" /> */}
         </StackCategory>
         <IconList>
           <img src={GitIcon} alt="" />
@@ -114,6 +114,7 @@ const IconList = Styled.div`
     width: 100px;
     height: 100px;
     margin-right: 30px;
+    border-radius: 20px;
   }
   margin-bottom: 50px;
 `;

@@ -15,3 +15,13 @@ code {
 p {
   margin: 0;
 }
+
+@font-face {
+  font-family: "AppleSDGothic";
+  src: url("./assets/fonts/AppleSDGothicNeo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "HomepageBaukasten";
+  src: url("./assets/fonts/HomepageBaukasten-Bold.ttf");
+}
